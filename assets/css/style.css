@@ -1,0 +1,311 @@
+
+/*///////////// leeyiner.com CSS ////////////*/
+
+/*////////////////// 基本 /////////////////*/
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    user-select:none; 
+
+
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .07em;
+}
+
+section {
+    padding: 60px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+}
+
+a {
+    color: #6d9eeb;
+}
+
+dl, ol, ul {
+    margin-bottom: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+/*////////////////// 导航栏 //////////////////*/
+.container {
+    max-width: 1200px;
+}
+
+.navbar {
+    /* 禁用文字选中*/
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    margin: 0;
+
+    background-color: #ffffff;
+    line-height: 45px;
+    display: inline-block;
+    text-align: right;
+    position: fixed;
+    top: 0; 
+    padding: 0px 0px;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+
+    text-decoration: none !important;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    width: auto;
+    height: auto;
+    max-height: 45px;
+}
+
+.nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    display: inline-block;
+    line-height: 30px;
+    background-color: transparent !important;
+}
+
+.nav-link:hover {
+    opacity: .95;
+}
+
+.nav-link-active {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    display: inline-block;
+    line-height: 30px;
+    opacity: .90;
+    background-color: #FFF !important;
+    box-shadow: inset 0px 0px 10px #d9d9d9;
+}
+
+.nav-link-active:hover {
+    opacity: .95;
+}
+
+.nav-ul-link {
+    text-align: center;
+    display: block;
+    padding: .25rem 1.4rem;
+    clear: both;
+    color: #666666;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+.nav-ul-link:hover{
+    background-color: #f1f3f4;
+}
+
+.dropdown-menu {
+    min-width: 50px !important;
+    border-radius: 4px !important;
+    margin-top: 1px !important;
+    border: 0px !important;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+
+/*////////////////// 按钮 //////////////////*/
+
+.nav-btn {
+    color: #666666 !important;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    border:1px solid #cccccc;
+    margin-left: 20px;
+    transition: all 0.2s;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+    background-color: #f1f3f4;
+    color: #666666;
+}
+
+.blue-btn {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    background-color: #fbfbfb;
+    padding: 7px 7px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    max-width: 100px;
+    margin: 0px 0px;
+    min-height: 20px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.blue-btn:hover {
+    text-decoration: none;
+    background-color: #6d9eeb;
+    color: #ffffff;
+}
+
+/*////////////////// 文本图框 //////////////////*/
+
+
+
+.img-lg {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.img-bottom {
+    margin-right: -100px;
+}
+
+.fillet-box {
+
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+
+    background: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0px 0px !important;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 10px -30px 40px rgba(0, 0, 0, 0.2);
+}
+
+.fillet-box:hover {
+    -moz-transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+.fillet-box h4 {
+    font-weight: 500;
+}
+
+.fillet-box img{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fillet-box-text {
+    text-align: left !important;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    padding: 13px 15px;
+}
+
+/*////////////////// 页脚 //////////////////*/
+
+#footer, #footer a {
+    color: #1a1a1a;
+    font-size: 13px;
+}
+
+.logo-footer {
+    max-width: 400px;
+}
+
+.footer-link > i {
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+/*////////////////// 其它 //////////////////*/
+
+.topmargin-sm { 
+    margin-top: 20px !important; 
+}
+
+.topmargin-lg { 
+    margin-top: 60px !important; 
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.text-dark {
+    color: #1a1a1a !important;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.bg-gray {
+    background-color: #f1f3f4 !important;
+}
+
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+.bg-color{
+    background-color: #dd7e6b !important;
+}
+
+.blank-l {
+    padding-left: 30px;
+}
+
+.blank-r {
+    padding-right: 30px;
+}
+
+.blank-t{
+    margin-top: -4px;
+}
+
+
