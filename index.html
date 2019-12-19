@@ -1,132 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	
-    <meta http-equiv="refresh" content="300">
-	<!-- verification -->
-    <meta charset="UTF-8">
+<!-- Required meta tags -->
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- description -->
-    <meta name="description" content="视界事由(eyecus)简称“视由”，是一间来自中国的创意工作室，目前提供文化创意产业相关服务。Currently provide Cultural and Creative Industries(CACI) related services.">
-    <meta name="keywords" content="视由,视界事由,eyecus,世佳,创意工作室,前端,eyecus.com,利隐客,利隐者,利隐创意,leeyin " />
+<title>利隐客</title>
+<!-- description -->
+<meta name="description" content="利隐客是视界事由旗下的设计工作室。">
+<meta name="keywords" content="利隐客, 利隐者, leeyiner, leeyin, 世佳" />
 
-    <title>利隱視界</title>
+<link rel="icon" href="img/favicon.png" type="image/x-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:300,500,700|Overlock+SC|Roboto:500,700|Julius+Sans+One|Monoton&display=swap" rel="stylesheet"> 
-    
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
+<!-- styles-->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
-
 <body>
-   <nav class="navbar navbar-expand-md">
-    <div class="container">
+<!--navigation-->
+<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top sticky-navigation">
+	<div class="container">
+	<a class="eyecus-title" href="index.html">
+		<strong style="color: #222">利隐客</strong>
+	</a>
+	<div class="collapse navbar-collapse">
+		<ul class="navbar-nav mx-auto">
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="#figure">关于</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link page-scroll" href="#services">服务</a>
+			</li>
+		</ul>
+	</div>
+	<div class="navbar-nav ml-auto">
+		<a class="nav-link page-scroll" href="https://eyecus.com">了解视由</a>
+	</div>
+	</div>
+</nav>
 
-        <a href="index.html"><img src="assets/images/leeyin-logo-zh.png" class="nav-logo"></a>
+<!--figure section-->
+<section id="figure">
+<div class="container">
+	<img src="img/bg.jpg" width="100%">
+</div>
+</section>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="assets/images/menu.svg">
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item">
-                <a class="nav-link nav-link-active" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">PROJECTS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">CULTURE</a>
-            </li>
-
-            <div class="collapse navbar-collapse">
-                <li class="dropdown nav-btn" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <a><svg t="1573126224163" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15189" width="18" height="18"><path d="M512 938.666667C276.352 938.666667 85.333333 747.648 85.333333 512S276.352 85.333333 512 85.333333s426.666667 191.018667 426.666667 426.666667-191.018667 426.666667-426.666667 426.666667z m-97.706667-99.541334A763.733333 763.733333 0 0 1 342.485333 554.666667H173.312a341.674667 341.674667 0 0 0 240.981333 284.458666zM427.946667 554.666667c6.442667 104.064 36.181333 201.813333 84.053333 288.085333A678.613333 678.613333 0 0 0 596.053333 554.666667h-168.106666z m422.741333 0h-169.173333a763.733333 763.733333 0 0 1-71.808 284.458666A341.674667 341.674667 0 0 0 850.688 554.666667zM173.312 469.333333h169.173333A763.733333 763.733333 0 0 1 414.293333 184.874667 341.674667 341.674667 0 0 0 173.312 469.333333z m254.677333 0h168.021334A678.613333 678.613333 0 0 0 512 181.248 678.613333 678.613333 0 0 0 427.946667 469.333333z m181.717334-284.458666A763.733333 763.733333 0 0 1 681.514667 469.333333h169.173333a341.674667 341.674667 0 0 0-240.981333-284.458666z" p-id="15190" fill="#707070"></path></svg></i> Language</a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="nav-ul-link" href="index.html">中文-简体</a>
-                    <!--div class="dropdown-divider"></div>-->
-                    <a class="nav-ul-link" href="index-en.html">ENGLISH</a>
-                </div>
-                </li>
-            </div> 
-
-        </ul>
-        </div>  
+<!--footer section-->
+<section id="footer">  
+<div class="container">
+    <hr>             
+    <div class="eyecus-footer">
+        <div class="eyecus-copyright">
+            Copyright ©2019 LEEYINER. All Rights Reserved. <br>利隐客 版权所有
+        </div>
+    <div align="center" class="eyecus-footer-title">
+        <strong>LEEYINER</strong>
     </div>
-    </nav>
-
-    <div style="margin-top: 30px;">
-
-
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/images/lee.jpg" alt="First slide">
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/lee-1.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/images/lee-2.png" alt="Third slide">
-    </div>
-  </div>
+</div>
+</section>
+
+<!--scroll to top-->
+<div class="scroll-top">
+	↑
 </div>
 
 
-    <div class="bg-light topmargin-sm">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="fillet-box">
-                    <img src="assets/images/eyecusio.jpg" >
-                </div>
-            </div>
+<!-- JS -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/feather.min.js"></script>
+<script src="js/scripts.js"></script>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="fillet-box">
-                    <img src="assets/images/eyecusio.jpg" >
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <div class="fillet-box">
-                    <img src="assets/images/starwood.jpg">
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-
-    <section id="footer" class="bg-light">
-        <div class="container text-center">
-                <a>©2019 利隐视界. All Rights Reserved.</a>
-        </div>
-    </section>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
+</body>
 </html>
